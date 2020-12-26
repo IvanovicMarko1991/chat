@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Chat Messenger Tibiscus</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <br />
+
+        <h3 align="center">Tibiscus Chat Application</h3><br />
+        <br />
+        <div class="panel panel-default">
+            <div class="panel-heading">Chat Application Login</div>
+            <div class="panel-body">
+                <p class="text-danger"><?php echo $message; ?></p>
+                <form method="post">
+                    <div class="form-group">
+                        <label>Enter Username</label>
+                        <input id="username" type="text" name="username" class="form-control" required />
+                        <p id="message-username" class="alert-message"></p>
+                    </div>
+                    <div class="form-group">
+                        <label>Enter Password</label>
+                        <input id="password" type="password" name="password" class="form-control" required />
+                        <p id="message-password" class="alert-message"></p>
+                    </div>
+                    <div class="form-group">
+                        <input id="login" type="submit" name="login" class="btn btn-info" value="Login" />
+                        <p id="message-alert" class="alert-message"></p>
+                    </div>
+                    <div align="center">
+                        <button type="button" class="btn btn-register"><a href="register_page.php">Register</a></button>
+                    </div>
+                    <div align="center">
+                        <button type="button" class="btn btn-forgot"><a href="forgot_password.htm">Forgot
+                                password</a></button>
+                    </div>
+                </form>
+
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    <img src="upload/fcia.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img src="upload/fdap-d.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img src="upload/fp.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img src="upload/fse-eai.jpg">
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/login.js"></script>
+
+</body>
+
+</html>

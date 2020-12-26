@@ -1,0 +1,25 @@
+.btn-register {
+    color: white;
+    background-color: #31b0d5;
+}
+
+.btn-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-forgot {
+    color: #ffffff;
+    background-color: #31b0d5;
+    margin-top: 5px;
+}
+
+.btn-forgot a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.alert-message {
+    color: #FF0000;
+}
